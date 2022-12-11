@@ -1,0 +1,38 @@
+.banner__textos{
+    color: var(--primary-text-color);
+    width: 70%;
+    flex-direction: column;
+}
+
+.banner__titulo{
+    font-size: 6.25rem;
+}
+
+.banner__body{
+    font-size: 2.25rem;
+    margin: 1.25rem 0;
+}
+
+.banner__link{
+    background-color: var(--secondary-theme-color);
+    width: 50%;
+    text-align: center;
+    padding: 1.25rem 0;
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 700;
+    border-radius: var(--primary-border-radius);
+    color: var(--primary-text-color);
+    transition: .3s;
+}
+
+.banner__link:hover{
+    background-color: var(--primary-text-color);
+    width: 50%;
+    text-align: center;
+    padding: 1.25rem 0;
+    text-decoration: none;
+    font-size: 1.25rem;
+    border-radius: var(--primary-border-radius);
+    color: var(--secondary-theme-color);
+}

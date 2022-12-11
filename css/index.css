@@ -1,0 +1,13 @@
+@import './modules/variables.css';
+@import './modules//utils.css';
+@import './modules/header.css';
+@import './modules/nav.css';
+@import './modules/layout.css';
+@import './modules/list.css';
+@import './modules/banner.css';
+
+
+.body{
+    margin: 0;
+    
+}
